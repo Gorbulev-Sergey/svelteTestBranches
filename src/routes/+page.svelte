@@ -1,3 +1,5 @@
-<div class="bg-dark text-light p-3 rounded">
-	<h5>Всем привет, страница проекта hram-babynino!</h5>
-</div>
+<script>
+	import PageTitle from '$lib/components/PageTitle.svelte';
+</script>
+
+<PageTitle title="Всем привет, страница проекта hram-babynino!" />
