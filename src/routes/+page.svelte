@@ -1,5 +1,8 @@
 <script>
+	import Card from '$lib/components/Card.svelte';
 	import PageTitle from '$lib/components/PageTitle.svelte';
+
+	let content = '<i>Догадайся сам</i>';
 </script>
 
 <PageTitle title="Всем привет!">
@@ -9,3 +12,5 @@
 		<div>hram-babynino</div>
 	</div>
 </PageTitle>
+
+<Card title="Ты меня любишь?" {content} />
